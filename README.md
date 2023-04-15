@@ -17,7 +17,7 @@ mysql -uroot -p<your_password>
 create database testdb;
 ```
 
-## Database Config
+## Config
 ---
 
 ```json
