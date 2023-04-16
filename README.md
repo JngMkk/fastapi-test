@@ -21,7 +21,7 @@ create database testdb;
 ---
 
 ```json
-// configs/config.json
+// core/config.json
 {
     "DB": {
         "user": "<user>",
