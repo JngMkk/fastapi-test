@@ -8,12 +8,12 @@ profile="black"
 line_length=100
 
 [tool.poetry]
-name = "fastapi-project"
+name = "fastapi-test"
 version = "0.1.0"
 description = "fastapi test project"
 authors = ["JngMkk"]
 readme = "README.md"
-packages = [{include = "fastapi_project"}]
+packages = [{include = "fastapi_test"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
