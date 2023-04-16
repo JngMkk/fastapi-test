@@ -3,7 +3,7 @@
 ## version
 
 - python 3.10.10
-- fastAPI 0.95.0
+- fastAPI 0.95.1
 - mysql 8.0.32
 
 ## Pyenv
