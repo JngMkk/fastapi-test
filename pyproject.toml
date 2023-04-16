@@ -13,7 +13,10 @@ version = "0.1.0"
 description = "fastapi test project"
 authors = ["JngMkk"]
 readme = "README.md"
-packages = [{include = "fastapi_test"}]
+packages = [
+    {include = "core"},
+    {include = "common"},
+]
 
 [tool.poetry.dependencies]
 python = "^3.10"

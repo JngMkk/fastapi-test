@@ -6,3 +6,6 @@ __pycache__/
 
 # * config file
 config.json
+
+# * venv
+.venv/
