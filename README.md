@@ -47,7 +47,7 @@ poetry --version
     ```
 
 - 가상환경 폴더 프로젝트 내부에 만들기
-> 위 명령어에서 virtualenvs.in-project와 virtualenvs.path로 default 값 확인할 수 있음
+    > 위 명령어에서 virtualenvs.in-project와 virtualenvs.path로 default 값 확인할 수 있음
     
     ```bash
     poetry config virtualenvs.in-project true
