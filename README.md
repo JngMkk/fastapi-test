@@ -97,5 +97,6 @@ poetry install
 ```
 
 ```py
+# core/config.json 없으면 실행 안 됨
 python apps/main.py
 ```
