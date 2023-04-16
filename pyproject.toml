@@ -16,6 +16,7 @@ readme = "README.md"
 packages = [
     {include = "core"},
     {include = "common"},
+    {include = "apps"},
 ]
 
 [tool.poetry.dependencies]
