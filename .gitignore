@@ -1,11 +1,14 @@
-# * mypy
+# vscode
+.vscode/
+
+# mypy
 .mypy_cache/
 
-# * python
+# python
 __pycache__/
 
-# * config file
-config.json
-
-# * venv
+# venv
 .venv/
+
+# env
+.env
