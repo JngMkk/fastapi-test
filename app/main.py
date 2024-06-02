@@ -16,8 +16,8 @@ def init_app() -> FastAPI:
         yield
 
     app = FastAPI(
-        title="Payhere Backend",
-        description="Payhere backend APIs",
+        title="FastAPI test Backend",
+        description="FastAPI test backend APIs",
         version="v1",
         root_path="/api/v1",
         lifespan=lifspan,
