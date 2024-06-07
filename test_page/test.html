@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>API Interaction Example</title>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="main.js" defer></script>
+</head>
+<body>
+<h1>API Test Interface</h1>
+<h2>User Operations</h2>
+<div>
+    <h3>Sign Up</h3>
+    <input type="email" id="signupEmail" placeholder="Email">
+    <input type="password" id="signupPassword" placeholder="Password">
+    <button onclick="signupUser()">Sign Up</button>
+</div>
+
+<div>
+    <h3>Sign In</h3>
+    <input type="email" id="signinEmail" placeholder="Email">
+    <input type="password" id="signinPassword" placeholder="Password">
+    <button onclick="signinUser()">Sign In</button>
+</div>
+
+<div>
+    <h3>Sign Out</h3>
+    <button onclick="signoutUser()">Sign Out</button>
+</div>
+
+<h2>Event Operations</h2>
+<div>
+    <h3>Create Event</h3>
+    <input type="text" id="eventName" placeholder="Event Name">
+    <input type="text" id="eventDescription" placeholder="Event Description">
+    <button onclick="createEvent()">Create Event</button>
+</div>
+
+<div>
+    <h3>Get All Events</h3>
+    <button onclick="getAllEvents()">Get Events</button>
+</div>
+
+<div>
+    <h3>Get Event by ID</h3>
+    <input type="text" id="eventId" placeholder="Event ID">
+    <button onclick="getEventById()">Get Event</button>
+</div>
+
+<div>
+    <h3>Update Event</h3>
+    <input type="text" id="updateEventId" placeholder="Event ID">
+    <input type="text" id="updateEventName" placeholder="Event Name">
+    <input type="text" id="updateEventDescription" placeholder="Event Description">
+    <button onclick="updateEvent()">Update Event</button>
+</div>
+
+<div>
+    <h3>Delete Event</h3>
+    <input type="text" id="deleteEventId" placeholder="Event ID">
+    <button onclick="deleteEvent()">Delete Event</button>
+</div>
+
+</body>
+</html>
