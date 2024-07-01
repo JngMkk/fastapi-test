@@ -4,7 +4,8 @@ let accessToken = '';
 function signupUser() {
     const userData = {
         email: document.getElementById('signupEmail').value,
-        password: document.getElementById('signupPassword').value
+        password: document.getElementById('signupPassword').value,
+        password2: document.getElementById('signupPassword2').value
     };
     axios.post(`${apiBaseURL}/users/signup`, userData)
         .then(response => alert('Signup Success'))
