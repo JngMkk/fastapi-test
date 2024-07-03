@@ -1,19 +1,14 @@
 {
-    "python.formatting.provider": "black",
-    "python.formatting.blackArgs": [
-        "--config",
-        "${workspaceFolder}/pyproject.toml"
-    ],
-    "python.linting.enabled": true,
-    "python.linting.mypyEnabled": true,
-    "python.linting.mypyArgs": [
-        "--config-file=${workspaceFolder}/.mypy.ini"
-    ],
     "[python]": {
-        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnSave": true,
         "editor.codeActionsOnSave": {
-            "source.organizeImports": true
-        },
-    }
+            "source.organizeImports": "explicit"
+        }
+    },
+
+    "black-formatter.args": ["--config", "${workspaceFolder}/pyproject.toml"],
+    "flake8.args": ["--config", "${workspaceFolder}/.flake8"],
+    "mypy-type-checker.args": ["--config-file=${workspaceFolder}/.mypy.ini"],
+    "isort.args": ["--settings-file", "${workspaceFolder}/pyproject.toml"]
 }
